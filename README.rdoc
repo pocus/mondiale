@@ -1,3 +1,5 @@
 == README
 
 Travel experience sharing platform - Final project for Bitmaker Labs Cohort 5.
+
+With @thekreal and @scottchu
