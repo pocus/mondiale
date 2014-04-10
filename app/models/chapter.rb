@@ -9,6 +9,7 @@ class Chapter < ActiveRecord::Base
 
   has_many :inspirations, as: :inspirable
 
+  #Drag and drop, chapter numbering
   acts_as_list scope: :trip
 
 	validates :title, presence: true
