@@ -5,6 +5,7 @@ gem 'rails', '4.0.3'
 
 #carrierwave for images
 gem 'carrierwave'
+gem "fog", "~> 1.3.1"
 
 #rmagick for image processing
 #gem 'rmagick'
