@@ -24,7 +24,7 @@ module Common
 
   def cover_photo
     if post_attachments.any?
-      post_attachments[rand(post_attachments.size)].postimage_url
+      post_attachments[rand(post_attachments.size)].postimage_url(:cover)
     else
       'bridge.jpg'
     end
